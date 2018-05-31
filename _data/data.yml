@@ -1,147 +1,130 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
     # Site Settings
-    title: My Resume
-    url: 'http://webjeda.com'
-    about: true # set to False or comment line if you want to remove the "How to use?" in the sidebar
-    
+    title: Aline Bispo
+    #url: 'http://webjeda.com'
+    about: false # set to False or comment line if you want to remove the "How to use?" in the sidebar
+
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    
+    name: Aline Bispo
+    tagline: Desenvolvedora Front-End
+    pic: picture.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    twitter: '@webjeda'
+    email: alinembispolima@gmail.com
+    phone: +55 85 9 81836408
+    #website: blog.webjeda.com #do not add http://
+    linkedin: alinembl
+    github: alinembl
+    twitter: '@mari_lih'
 
     languages:
         - language:
-          idiom: English
-          level: Native
-        - language:
-          idiom: French
-          level: Professional
-        - language:
-          idiom: Spanish
-          level: Professional
-        
+          idiom: Inglês
+          level: Fluente
+
     interests:
         - interest:
-          item: Climbing
+          item: Handball
           link:
         - interest:
-          item: Snowboarding
-          link:
-        - interest:
-          item: Cooking
+          item: Leitura
           link:
 
-        
 
 
 
 
-career-profile: 
-    title: Career Profile
-    text: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+
+career-profile:
+    title: Um pouco sobre mim...
+    text: 'Sou Pernambucana e moro no Ceará a 14 anos. Gosto de aprender coisas novas e de construir projetos legais.'
 
 
-studies: 
+studies:
     - education:
-      degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem."
+      degree: Bacharelado em Sistemas de Informação
+      university: Unichristus
+      time: 2017 - 2018
+
 
     - education:
-      degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem."
+      degree: Bacharelado em Engenharia de Computação
+      university: IFCE - Instituto Federal de Educação, Ciência e Tecnologia
+      time: 2012 - 2017
 
+    - education:
+      degree: Técnico em Informática
+      university: IFCE - Instituto Federal de Educação, Ciência e Tecnologia
+      time: 2006 - 2010
 
 projects:
-    title: Projects
-    intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-      sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-    
+    title: Projetos
+    intro: "Projetos que participei/construí como desenvolvedora"
+
     projects:
       - project:
-        title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        title: Vivah Kennel
+        link: "https://vivahkennel.com"
+        tagline: "Website responsivo para o Vivah Kennel"
       - project:
-        title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        title: Desenvolvedora  - DGTI | IFCE
+        tagline: "Desenvolvimento de funcionalidades para o sistema SUAP(Sistema Unificado de Administração Pública) -  Django/Python."
       - project:
-        title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        title: Pesquisadora e Desenvolvedora - LIT | IFCE
+        tagline: "Estudo do funcionamento da ferramenta Prediction.IO, um servidor open source de Machine Learning, realizando testes com exemplos e possíveis aplicações nos projetos do laboratório."
       - project:
-        title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        title: Pesquisadora e Desenvolvedora - LIT | IFCE
+        tagline: "Estudo do funcionamento da bibliotexa PyAR.Drone para desenvimento de funções em que o AR.Drone realizasse trajetórias pre-definidas por comandos direcionais."
       - project:
-        title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        title: Administradora de Sistema de Aprendizagem
+        tagline: "Administração de Ambiente Virtual de Aprendizagem - Moodle. Atualização periódica do sistema, gerenciamento de cursos e políticas de acesso de usuários e equipe técnica."
+
 
 
 publications:
-    title: Publications
-    intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-    
+    title: Cursos Extensão
+    #intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+
     publications:
       - paper:
-        title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        title: Desenvolvimento FrontEnd
+        conference: Ifactory, 2017
       - paper:
-        title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        title: Javascript
+        conference: Codecademy, 2017
       - paper:
-        title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+        title: Jquery
+        conference: Alura, 2017
+      - paper:
+        title: Webdesign Responsivo
+        conference: Alura, 2017
+      - paper:
+        title: Projects in Django
+        conference: Stackskills, 2016
+      - paper:
+        title: Git
+        conference: Codecademy, 2016
+      - paper:
+        title: Python
+        conference: Codecademy, 2015
 
 skills:
     title: Skills &amp; Proficiency
     skills:
         - skill:
           name: Python & Django
-          level: 98%
-        - skill:
-          name: Javascript & jQuery
-          level: 98%
-        - skill:
-          name: Angular
-          level: 98%
+          level: 75%
         - skill:
           name: HTML5 & CSS
           level: 95%
         - skill:
-          name: Ruby on Rails
-          level: 85%
-        - skill:
-          name: Sketch & Photoshop
-          level: 60%
+          name: Javascript
+          level: 75%
 
 
-footer: 
-    text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
+footer:
+text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
